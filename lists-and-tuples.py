@@ -4,9 +4,11 @@ my_list = ['John', 'Peter', 'Debbie', 'Charles']
 my_list = ['John', 'Peter', 'Debbie', 'Charles']
 print(my_list[2])
 
+
 # Negative indexes
 my_list = ['John', 'Peter', 'Debbie', 'Charles']
 print(my_list[-2])
+
 
 # Getting sublists with Slices
 my_list = ['John', 'Peter', 'Debora', 'Charles']
@@ -20,15 +22,18 @@ print(another_list)
 print(to_the_end_list)
 print(from_the_beginning_list)
 
+
 # Getting a list length with len()
 my_list = ['John', 'Peter', 'Debora', 'Charles']
 print(len(my_list))
+
 
 # Changing values with indexes
 my_list = ['John', 'Peter', 'Debora', 'Charles']
 print(f"My list is {my_list}")
 my_list[1] = "Jack"
 print(f"My new list is {my_list}")
+
 
 # Concatenation and Replication
 list_a = ["hey", "you", "there"]
@@ -38,10 +43,12 @@ print(list_a * 2)
 new_list = list_a + list_b + ["Jack"]
 print(new_list)
 
+
 # Using for loops with Lists
 my_list = ['John', 'Peter', 'Debora', 'Charles']
 for name in my_list:
     print(name)
+
 
 # Getting the index in a loop with enumerate()
 print()
@@ -126,6 +133,8 @@ popped_element = names.pop(0)
 print(f"Pooped Element: {popped_element}")
 print(f"New List: {names}\n")
 
+# clear() => This one clears the entire list
+
 
 # Sorting values with sort()
 numbers = [5, 2, -6, 4, 0, -9]
@@ -148,3 +157,4 @@ print(letters)
 numbers = [5, 2, -6, 4, 0, -9]
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
+
